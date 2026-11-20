@@ -1,0 +1,2 @@
+model_key,train_samples,val_samples,test_samples,val_accuracy,val_macro_f1,test_accuracy,test_macro_f1
+Baseline_TFIDF_LogReg,6000,1246,500,0.8651685393258427,0.789104234109244,0.732,0.6299570629845859

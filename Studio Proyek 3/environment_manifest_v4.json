@@ -1,0 +1,24 @@
+{
+  "platform": "Kaggle Notebook",
+  "gpu_device": "Tesla T4",
+  "gpu_vram_gb": 14.56,
+  "cuda_version": "13.0",
+  "libraries": {
+    "Python": "3.13.16",
+    "PyTorch": "2.11.0+cu130",
+    "Transformers": "5.20.2",
+    "Scikit-Learn": "1.6.1",
+    "Pandas": "2.3.3",
+    "NumPy": "2.1.3",
+    "Matplotlib": "3.10.0"
+  },
+  "reproducibility_policy": {
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "seed_function": "set_reproducible_seed(seed) dipanggil sebelum setiap inisialisasi dataloader dan model",
+    "inference_benchmark_protocol": "Diukur pada GPU yang sama dalam satu sesi menggunakan eval_batch_size=32, mode model.eval(), torch.no_grad(), dan torch.cuda.synchronize()."
+  }
+}
